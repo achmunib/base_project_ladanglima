@@ -68,8 +68,13 @@ export default defineConfig({
         singleAttributePerLine: false,
         htmlWhitespaceSensitivity: 'css',
         ignorePatterns: [
+            '.agents/mcp_config.json',
             '.github/**',
+            '.mcp.json',
+            '.zed/settings.json',
+            'boost.json',
             'composer.json',
+            'opencode.json',
             'resources/js/components/ui/*',
             'resources/views/mail/*',
         ],
